@@ -2,7 +2,7 @@
 This project is about finding credit card fraud transactions
 
 Preprocessing:
-Since the number of normal transactions were much more compared to normal transactions, SMOTE was used with XGboost and Decision Tree Classifiers
+Since the number of normal transactions were much more compared to normal transactions, SMOTE was used with XGboost and Random Forest Classifiers
 However with ISolation Forest, SMOTE wasn't applied on data as the algorithm looks for isolating points to classify the fraud transactions
 
 Models used: Isolation Forest ,XGboost, RandomForestClassifier
